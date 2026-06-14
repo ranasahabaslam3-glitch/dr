@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Alex Mercer, PharmD | Clinical & Pharma Consultant</title>
+    <style>
+        /* Modern, Clean Healthcare Styling */
+        :root {
+            --primary-color: #0d6efd; /* Trusting Blue */
+            --secondary-color: #198754; /* Clinical Green */
+            --dark-text: #212529;
+            --light-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--dark-text);
+            background-color: #ffffff;
+        }
+
+        /* Navigation Bar */
+        header {
+            background: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 1.4rem;
+            color: var(--primary-color);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--dark-text);
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #e9ecef 0%, #f8f9fa 100%);
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            color: var(--dark-text);
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #0b5ed7;
+        }
+
+        /* Features / Services Section */
+        .services {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .services h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: var(--light-bg);
+            padding: 30px;
+            border-radius: 8px;
+            border-left: 5px solid var(--secondary-color);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--dark-text);
+        }
+
+        /* Footer */
+        footer {
+            background: #212529;
+            color: #efefef;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">Dr. Alex Mercer, PharmD</div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <h1>Bridging Clinical Expertise & Healthcare Solutions</h1>
+            <p>Leveraging 2 years of advanced PharmD experience to provide expert medication therapy management, medical writing, and pharmaceutical consulting.</p>
+            <a href="#contact" class="cta-button">Book a Consultation</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Expertise & Services</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Medication Therapy Management</h3>
+                <p>Optimizing drug therapy regimens to improve patient outcomes, reduce side effects, and minimize healthcare costs.</p>
+            </div>
+            <div class="card">
+                <h3>Medical & Scientific Writing</h3>
+                <p>Creating accurate, evidence-based clinical content, research summaries, and educational materials for healthcare audiences.</p>
+            </div>
+            <div class="card">
+                <h3>Pharma Industry Consulting</h3>
+                <p>Providing clinical insights for drug safety, medical affairs, and regulatory compliance strategies.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Dr. Alex Mercer, PharmD. All rights reserved. | Optimized for Google</p>
+    </footer>
+
+</body>
+</html>
